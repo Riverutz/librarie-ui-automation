@@ -19,10 +19,10 @@ public class AddressPage extends BasePage {
     private WebElement individualPersonButton;
 
     @FindBy(xpath = "//input[@name='ua_nume']")
-    private WebElement firstNameField;
+    private WebElement lastNameField;
 
     @FindBy(xpath = "//input[@name='ua_prenume']")
-    private WebElement lastNameField;
+    private WebElement fistNameField;
 
     @FindBy(xpath = "//input[@name='ua_strada']")
     private WebElement streetField;
@@ -30,7 +30,29 @@ public class AddressPage extends BasePage {
     @FindBy(xpath = "//input[@name='ua_nr']")
     private WebElement streetNumberField;
 
+    @FindBy(xpath = " //input[@name='ua_bl']")
+    private WebElement blockNumberField;
 
+    @FindBy(xpath = "//input[@name='ua_sc']")
+    private WebElement stairsNumberField;
+
+    @FindBy(xpath = "//input[@name='ua_ap']")
+    private WebElement apartmentNumberField;
+
+    @FindBy(xpath = "//input[@name='ua_detalii_livrare']")
+    private WebElement deliveryDetailsField;
+
+    @FindBy(xpath = "//input[@name='ua_cod']")
+    private WebElement postalCodeField;
+
+    @FindBy(xpath = "//input[@name='ua_oras']")
+    private WebElement cityField;
+
+    @FindBy(xpath = "//select[@name='ua_bl']")
+    private WebElement selectCounty;
+
+    @FindBy(xpath = "//select[@name='ua_t_id']")
+    private WebElement selectCountry;
 
 
     public void clickAddressLink() {
@@ -41,4 +63,9 @@ public class AddressPage extends BasePage {
         elementsMethods.clickElement(addNewAddressButton);
     }
 
-}
+//    public void fillLastName() {
+//        elementsMethods.
+
+    }
+
+//}
