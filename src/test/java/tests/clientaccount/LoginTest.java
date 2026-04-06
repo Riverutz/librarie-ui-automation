@@ -1,4 +1,4 @@
-package tests;
+package tests.clientaccount;
 
 import base.BaseTest;
 import org.testng.Assert;
@@ -9,10 +9,7 @@ public class LoginTest extends BaseTest {
 
     @Test
     public void loginTest() {
+        loginAsUser();
         LoginPage loginPage = new LoginPage(getDriver());
-        loginPage.clickMyAccountLink();
-        loginPage.fillEmail();
-        loginPage.fillPassword();
-        loginPage.clickSubmitButton();
         Assert.assertTrue(loginPage.isLogoutLinkDisplayed(), "Login failed - logout link not visible");    }
 }

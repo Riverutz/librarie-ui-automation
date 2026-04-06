@@ -1,5 +1,7 @@
 package pages;
 
+import objectdata.AddressObject;
+import objectdata.LoginObject;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -28,19 +30,17 @@ public class LoginPage extends BasePage {
     @FindBy(xpath = "//a[@title='Logout']")
     private WebElement logoutLink;
 
+    @FindBy(xpath = "//div[@class='css_info']")
+    private WebElement logoutConfirmation;
+
 
     public void clickMyAccountLink() {
         elementsMethods.clickElement(myAccountLink);
     }
 
-    public void fillEmail() {
-        String emailValue = "automationtestingemail4@gmail.com";
-        elementsMethods.fillElement(emailField, emailValue);
-    }
-
-    public void fillPassword(){
-        String passwordValue = "PvwdNcob";
-        elementsMethods.fillElement(passwordField, passwordValue);
+    public void fillLoginForm(LoginObject testData) {
+        elementsMethods.fillElement(emailField, testData.getEmail());
+        elementsMethods.fillElement(passwordField, testData.getPassword());
     }
 
     public void clickSubmitButton(){
@@ -49,5 +49,13 @@ public class LoginPage extends BasePage {
 
     public boolean isLogoutLinkDisplayed() {
         return elementsMethods.isElementDisplayed(logoutLink);
+    }
+
+    public void clickLogout(){
+        elementsMethods.clickElement(logoutLink);
+    }
+
+    public boolean isLoggedOut(){
+        return elementsMethods.isElementDisplayed(logoutConfirmation);
     }
 }

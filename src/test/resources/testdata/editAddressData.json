@@ -1,0 +1,14 @@
+{
+  "lastName": "Tiriboi",
+  "firstName": "Mihai",
+  "street": "Strada Mihai Viteazul",
+  "streetNumber": "24",
+  "blockNumber": "B",
+  "stairsNumber": "3",
+  "apartmentNumber": "25",
+  "deliveryDetails": "Interfon 5",
+  "postalCode": "010101",
+  "city": "Adjud",
+  "county":"Vrancea",
+  "country": "Romania"
+}

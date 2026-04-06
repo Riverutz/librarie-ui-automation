@@ -1,10 +1,13 @@
 package base;
 
+import objectdata.LoginObject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import pages.LoginPage;
+
 import java.time.Duration;
 
 public class BaseTest {
@@ -15,7 +18,7 @@ public class BaseTest {
     }
 
     @BeforeMethod
-    public void setUp(){
+    public void setUp() {
         driver = new ChromeDriver();
         driver.get("https://www.librarie.net/");
         driver.manage().window().maximize();
@@ -24,7 +27,15 @@ public class BaseTest {
     }
 
     @AfterMethod
-    public void tearDown(){
+    public void tearDown() {
         driver.quit();
+    }
+
+    public void loginAsUser() {
+        LoginObject loginData = new LoginObject("testdata/loginData.json");
+        LoginPage loginPage = new LoginPage(getDriver());
+        loginPage.clickMyAccountLink();
+        loginPage.fillLoginForm(loginData);
+        loginPage.clickSubmitButton();
     }
 }

@@ -1,0 +1,14 @@
+{
+  "lastName": "Popescu",
+  "firstName": "Ion",
+  "street": "Strada Florilor",
+  "streetNumber": "10",
+  "blockNumber": "A",
+  "stairsNumber": "2",
+  "apartmentNumber": "15",
+  "deliveryDetails": "Interfon 15",
+  "postalCode": "600001",
+  "city": "Bacau",
+  "county":"Bacau",
+  "country": "Romania"
+}
