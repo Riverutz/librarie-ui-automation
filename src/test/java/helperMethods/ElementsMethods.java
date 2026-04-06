@@ -53,7 +53,7 @@ public class ElementsMethods {
         yearSelect.selectByValue(text);
     }
 
-    public void clearFillElement(WebElement element, String text) {
+    public void clearAndType(WebElement element, String text) {
         waitForElementVisible(element);
         element.clear();
         element.sendKeys(text);
