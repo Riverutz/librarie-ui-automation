@@ -145,7 +145,6 @@ public class AddressPage extends BasePage {
         pageMethods.scrollPage(0, 350);
         elementsMethods.clickElement(saveChangesButton);
         pageMethods.scrollPage(0, 450);
-
     }
 
     public boolean isAddressEdited() {
