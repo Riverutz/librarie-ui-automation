@@ -8,6 +8,7 @@ Automated UI testing framework for [librarie.net](https://www.librarie.net), a R
 - **Selenium WebDriver**
 - **TestNG**
 - **Jackson** - JSON test data management
+- **Log4j2** - Logging
 - **Lombok** - Boilerplate code reduction
 - **WebDriverManager** - Automatic browser driver management
 - **Maven** - Build and dependency management
@@ -21,12 +22,14 @@ src/test/
 │   ├── helperMethods/     # Reusable Selenium helper methods
 │   ├── objectdata/        # Jackson POJO classes for test data
 │   ├── pages/             # Page Object Model classes
+│   ├── utils/             # LoggerUtility
 │   └── tests/
 │       ├── clientaccount/ # Login, logout, address tests
+│       ├── cart/          # Cart tests
 │       ├── search/        # Search tests
 │       └── product/       # Product page tests
 └── resources/
-    └── testdata/          # JSON test data files
+└── testdata/          # JSON test data files
 ```
 
 ## ✅ Test Scenarios
@@ -44,11 +47,19 @@ src/test/
 ### Product Page
 - Verify book title, author, price, stock status and add to cart button are displayed
 
+### Cart
+- Add item to cart
+- Remove item from cart
+- Update item quantity
+
 ## ▶️ How to Run
 
 1. Clone the repository git clone https://github.com/Riverutz/librarie-ui-automation.git
 2. Open in IntelliJ IDEA
 3. Run all tests via `testng.xml`
+
+## 🔄 CI/CD
+Tests run automatically on every push and pull request via GitHub Actions.
 
 ## 📋 Design Patterns
 
