@@ -4,23 +4,21 @@ import objectdata.LoginObject;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import utils.LoggerUtility;
 
 public class LoginPage extends BasePage {
     public LoginPage(WebDriver driver) {
         super(driver);
     }
 
-    //    automationtestingemail4@gmail.com
-    //    PvwdNcob
-
     @FindBy(xpath = "//a[@title='CONT CLIENT']")
     private WebElement myAccountLink;
 
     @FindBy(xpath = "//div[b[text()='LOGIN CONT EXISTENT']]//input[@name='email']")
-    private WebElement emailField;
+    private WebElement loginEmailField;
 
     @FindBy(xpath = "//div[b[text()='LOGIN CONT EXISTENT']]//input[@name='password']")
-    private WebElement passwordField;
+    private WebElement loginPasswordField;
 
     @FindBy(xpath = "//div[b[text()='LOGIN CONT EXISTENT']]//input[@type='submit']")
     private WebElement submitButton;
@@ -31,29 +29,37 @@ public class LoginPage extends BasePage {
     @FindBy(xpath = "//div[@class='css_info']")
     private WebElement logoutConfirmation;
 
+    @FindBy(xpath = "//input[@name='email']")
+    private WebElement profileEmailField;
 
-    public void clickMyAccountLink() {
+
+    public void login(LoginObject testData) {
+        LoggerUtility.info("Navigating to account page");
         elementsMethods.clickElement(myAccountLink);
-    }
-
-    public void fillLoginForm(LoginObject testData) {
-        elementsMethods.fillElement(emailField, testData.getEmail());
-        elementsMethods.fillElement(passwordField, testData.getPassword());
-    }
-
-    public void clickSubmitButton(){
+        LoggerUtility.info("Filling login form with email: " + testData.getEmail());
+        elementsMethods.fillElement(loginEmailField, testData.getEmail());
+        elementsMethods.fillElement(loginPasswordField, testData.getPassword());
+        LoggerUtility.info("Submitting login form");
         elementsMethods.clickElement(submitButton);
     }
 
-    public boolean isLogoutLinkDisplayed() {
-        return elementsMethods.isElementDisplayed(logoutLink);
-    }
-
-    public void clickLogout(){
+    public void clickLogout() {
+        LoggerUtility.info("Clicking logout link");
         elementsMethods.clickElement(logoutLink);
     }
 
-    public boolean isLoggedOut(){
+    public boolean isLogoutVisible() {
+        LoggerUtility.info("Checking if logout link is visible");
+        return elementsMethods.isElementDisplayed(logoutLink);
+    }
+
+    public boolean isLoggedOut() {
+        LoggerUtility.info("Checking if logout confirmation is displayed");
         return elementsMethods.isElementDisplayed(logoutConfirmation);
+    }
+
+    public String getLoggedInEmail() {
+        LoggerUtility.info("Getting logged in email");
+        return profileEmailField.getAttribute("value");
     }
 }

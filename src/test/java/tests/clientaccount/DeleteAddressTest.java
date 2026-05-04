@@ -9,7 +9,7 @@ import pages.AddressPage;
 public class DeleteAddressTest extends BaseTest {
 
     @Test
-    public void deleteAddressTest() {
+    public void userShouldBeAbleToDeleteAddress() {
         AddressObject testData = new AddressObject("testdata/addressData.json");
         loginAsUser();
 
@@ -18,10 +18,10 @@ public class DeleteAddressTest extends BaseTest {
         addressPage.clickAddNewAddressButton();
         addressPage.fillAddressForm(testData);
         addressPage.clickSubmitAddress();
-        Assert.assertTrue(addressPage.isAddressSaved(), "Address was not saved successfully");
+        Assert.assertEquals(addressPage.getConfirmationMessage(), "Adresa a fost adaugata!", "Confirmation message is incorrect");
         addressPage.clickSavedAddress();
         addressPage.clickDeleteAddress();
         addressPage.clickConfirmDeleteAddress();
-        Assert.assertTrue(addressPage.isAddressDeleted(), "Address was not deleted successfully");
+        Assert.assertEquals(addressPage.getDeleteConfirmationMessage(), "Adresa a fost stearsa!", "Address was not deleted successfully");
     }
 }

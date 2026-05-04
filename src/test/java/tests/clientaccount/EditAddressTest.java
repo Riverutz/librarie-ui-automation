@@ -24,11 +24,11 @@ public class EditAddressTest extends BaseTest {
     }
 
     @Test
-    public void editAddressTest() {
+    public void userShouldBeAbleToEditAddress() {
         AddressObject editData = new AddressObject("testdata/editAddressData.json");
         addressPage.clickSavedAddress();
         addressPage.editAddressForm(editData);
-        Assert.assertTrue(addressPage.isAddressEdited(), "Edit failed");
+        Assert.assertEquals(addressPage.getEditConfirmationMessage(), "Modificarile au fost salvate!", "Edit failed");
     }
 
     @AfterMethod
