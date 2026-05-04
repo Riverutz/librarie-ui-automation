@@ -4,16 +4,20 @@ import base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.ProductPage;
+import pages.SearchPage;
 
 public class ProductPageTest extends BaseTest {
 
     @Test
-    public void productPageTest() {
-        getDriver().get("https://www.librarie.net/p/498789/secretul-secretelor");
+    public void productPageShouldDisplayAllRequiredElements() {
+        SearchPage searchPage = new SearchPage(getDriver());
+        searchPage.clickSearchField("Secretul secretelor");
+        searchPage.clickFirstResult();
+
         ProductPage productPage = new ProductPage(getDriver());
 
-        Assert.assertTrue(productPage.isBookTitleDisplayed(), "Title not displayed");
-        Assert.assertTrue(productPage.isBookAuthorDisplayed(), "Author not displayed");
+        Assert.assertEquals(productPage.getBookTitle(), "Secretul secretelor", "Wrong book title");
+        Assert.assertEquals(productPage.getBookAuthor(), "Dan Brown", "Wrong book author");
         Assert.assertTrue(productPage.isBookPriceDisplayed(), "Price not displayed");
         Assert.assertTrue(productPage.isAddToCartDisplayed(), "Add to cart not displayed");
         Assert.assertTrue(productPage.isBookStockDisplayed(), "Stock not displayed");

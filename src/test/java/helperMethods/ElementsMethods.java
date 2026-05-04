@@ -6,7 +6,6 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
-
 public class ElementsMethods {
     public WebDriver driver;
 
@@ -82,8 +81,9 @@ public class ElementsMethods {
 
     public boolean isElementDisplayed(WebElement element) {
         try {
+            waitForElementVisible(element);
             return element.isDisplayed();
-        } catch (NoSuchElementException e) {
+        } catch (Exception e) {
             return false;
         }
     }

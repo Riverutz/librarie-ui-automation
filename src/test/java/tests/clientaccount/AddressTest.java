@@ -3,22 +3,31 @@ package tests.clientaccount;
 import base.BaseTest;
 import objectdata.AddressObject;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 import pages.AddressPage;
 
 public class AddressTest extends BaseTest {
+    private AddressPage addressPage;
 
     @Test
-    public void addressTest() {
+    public void shouldCreateNewAddressSuccessfully() {
         AddressObject testData = new AddressObject("testdata/addressData.json");
         loginAsUser();
 
-        AddressPage addressPage = new AddressPage(getDriver());
+        addressPage = new AddressPage(getDriver());
         addressPage.clickAddressLink();
         addressPage.clickAddNewAddressButton();
         addressPage.fillAddressForm(testData);
         addressPage.clickSubmitAddress();
-        Assert.assertTrue(addressPage.isAddressSaved(), "Address was not saved successfully");
+        Assert.assertEquals(addressPage.getConfirmationMessage(), "Adresa a fost adaugata!", "Confirmation message is incorrect");
+    }
+
+    @AfterMethod
+    public void cleanUpAddress() {
         addressPage.clickSavedAddress();
+        addressPage.clickDeleteAddress();
+        addressPage.clickConfirmDeleteAddress();
     }
 }
+

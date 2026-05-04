@@ -1,0 +1,726 @@
+16-04-2026 12:41:24 INFO  utils.LoggerUtility - Clicking 'Adrese' link
+16-04-2026 12:41:25 INFO  utils.LoggerUtility - Opening 'Add New Address' form
+16-04-2026 12:41:27 INFO  utils.LoggerUtility - Filling address form
+16-04-2026 12:41:27 INFO  utils.LoggerUtility - Entering last name: Popescu
+16-04-2026 12:41:27 INFO  utils.LoggerUtility - Entering first name: Ion
+16-04-2026 12:41:27 INFO  utils.LoggerUtility - Entering street: Strada Florilor
+16-04-2026 12:41:27 INFO  utils.LoggerUtility - Entering street number: 10
+16-04-2026 12:41:27 INFO  utils.LoggerUtility - Entering block: A
+16-04-2026 12:41:27 INFO  utils.LoggerUtility - Entering stairs: 2
+16-04-2026 12:41:27 INFO  utils.LoggerUtility - Entering apartment: 15
+16-04-2026 12:41:27 INFO  utils.LoggerUtility - Entering delivery details
+16-04-2026 12:41:27 INFO  utils.LoggerUtility - Entering postal code: 600001
+16-04-2026 12:41:27 INFO  utils.LoggerUtility - Entering city: Bacau
+16-04-2026 12:41:27 INFO  utils.LoggerUtility - Selecting county: Bacau
+16-04-2026 12:41:27 INFO  utils.LoggerUtility - Selecting country: Romania
+16-04-2026 12:41:27 INFO  utils.LoggerUtility - Submitting address
+16-04-2026 12:41:28 INFO  utils.LoggerUtility - Reading address confirmation message
+16-04-2026 12:41:28 INFO  utils.LoggerUtility - Selecting saved address
+16-04-2026 12:41:30 INFO  utils.LoggerUtility - Clicking 'Delete Address' button
+16-04-2026 12:41:31 INFO  utils.LoggerUtility - Confirming address deletion
+30-04-2026 11:14:08 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 11:14:15 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 11:14:15 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 11:14:16 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 11:14:17 INFO  utils.LoggerUtility - Browser closed successfully
+30-04-2026 11:20:24 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 11:20:28 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 11:20:28 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 11:20:29 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 11:20:46 INFO  utils.LoggerUtility - Closing browser
+30-04-2026 11:20:46 INFO  utils.LoggerUtility - Browser closed successfully
+30-04-2026 11:27:37 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 11:27:40 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 11:27:40 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 11:27:41 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 11:27:53 INFO  utils.LoggerUtility - Closing browser
+30-04-2026 11:27:53 INFO  utils.LoggerUtility - Browser closed successfully
+30-04-2026 11:29:29 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 11:29:33 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 11:29:33 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 11:29:34 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 11:29:37 INFO  utils.LoggerUtility - Browser closed successfully
+30-04-2026 13:05:01 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 13:05:07 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 13:05:07 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 13:05:08 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 13:05:11 INFO  utils.LoggerUtility - Browser closed successfully
+30-04-2026 13:36:39 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 13:36:44 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 13:36:44 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 13:36:45 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 13:36:48 INFO  utils.LoggerUtility - Browser closed successfully
+30-04-2026 13:38:53 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 13:38:58 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 13:38:58 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 13:38:59 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 13:39:01 INFO  utils.LoggerUtility - Navigating to cart
+30-04-2026 13:39:02 INFO  utils.LoggerUtility - Getting cart item title
+30-04-2026 13:39:02 INFO  utils.LoggerUtility - Browser closed successfully
+30-04-2026 13:39:58 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 13:40:03 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 13:40:03 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 13:40:04 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 13:40:06 INFO  utils.LoggerUtility - Navigating to cart
+30-04-2026 13:40:07 INFO  utils.LoggerUtility - Getting cart item title
+30-04-2026 13:40:07 INFO  utils.LoggerUtility - Browser closed successfully
+30-04-2026 13:40:07 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 13:40:11 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 13:40:11 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 13:40:12 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 13:40:14 INFO  utils.LoggerUtility - Navigating to cart
+30-04-2026 13:40:15 INFO  utils.LoggerUtility - Removing item from cart
+30-04-2026 13:40:16 INFO  utils.LoggerUtility - Getting empty cart message
+30-04-2026 13:40:16 INFO  utils.LoggerUtility - Closing browser
+30-04-2026 13:40:17 INFO  utils.LoggerUtility - Browser closed successfully
+30-04-2026 13:42:10 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 13:42:15 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 13:42:15 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 13:42:16 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 13:42:18 INFO  utils.LoggerUtility - Navigating to cart
+30-04-2026 13:42:19 INFO  utils.LoggerUtility - Getting cart item title
+30-04-2026 13:42:20 INFO  utils.LoggerUtility - Browser closed successfully
+30-04-2026 13:42:20 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 13:42:24 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 13:42:24 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 13:42:25 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 13:42:28 INFO  utils.LoggerUtility - Navigating to cart
+30-04-2026 13:42:29 INFO  utils.LoggerUtility - Removing item from cart
+30-04-2026 13:42:30 INFO  utils.LoggerUtility - Getting empty cart message
+30-04-2026 13:42:30 INFO  utils.LoggerUtility - Closing browser
+30-04-2026 13:42:31 INFO  utils.LoggerUtility - Browser closed successfully
+30-04-2026 13:53:52 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 13:53:58 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 13:53:58 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 13:53:59 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 13:54:00 INFO  utils.LoggerUtility - Navigating to cart
+30-04-2026 13:54:01 INFO  utils.LoggerUtility - Removing item from cart
+30-04-2026 13:54:02 INFO  utils.LoggerUtility - Getting empty cart message
+30-04-2026 13:54:02 INFO  utils.LoggerUtility - Closing browser
+30-04-2026 13:54:02 INFO  utils.LoggerUtility - Browser closed successfully
+30-04-2026 13:54:21 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 13:54:27 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 13:54:27 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 13:54:28 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 13:54:29 INFO  utils.LoggerUtility - Navigating to cart
+30-04-2026 13:54:30 INFO  utils.LoggerUtility - Removing item from cart
+30-04-2026 13:54:31 INFO  utils.LoggerUtility - Getting empty cart message
+30-04-2026 13:54:31 INFO  utils.LoggerUtility - Closing browser
+30-04-2026 13:54:31 INFO  utils.LoggerUtility - Browser closed successfully
+30-04-2026 13:55:09 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 13:55:14 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 13:55:14 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 13:55:15 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 13:55:17 INFO  utils.LoggerUtility - Navigating to cart
+30-04-2026 13:55:17 INFO  utils.LoggerUtility - Removing item from cart
+30-04-2026 13:55:18 INFO  utils.LoggerUtility - Getting empty cart message
+30-04-2026 13:55:18 INFO  utils.LoggerUtility - Browser closed successfully
+30-04-2026 13:55:35 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 13:55:40 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 13:55:40 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 13:55:41 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 13:55:43 INFO  utils.LoggerUtility - Navigating to cart
+30-04-2026 13:55:48 INFO  utils.LoggerUtility - Getting cart item title
+30-04-2026 13:55:48 INFO  utils.LoggerUtility - Browser closed successfully
+30-04-2026 13:55:48 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 13:55:51 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 13:55:51 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 13:55:52 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 13:55:54 INFO  utils.LoggerUtility - Navigating to cart
+30-04-2026 13:55:55 INFO  utils.LoggerUtility - Removing item from cart
+30-04-2026 13:55:55 INFO  utils.LoggerUtility - Getting empty cart message
+30-04-2026 13:55:56 INFO  utils.LoggerUtility - Browser closed successfully
+30-04-2026 13:58:20 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 13:58:32 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 13:58:32 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 13:58:33 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 13:58:35 INFO  utils.LoggerUtility - Navigating to cart
+30-04-2026 13:58:36 INFO  utils.LoggerUtility - Updating quantity to: 2
+30-04-2026 13:58:36 INFO  utils.LoggerUtility - Browser closed successfully
+30-04-2026 13:58:54 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 13:59:01 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 13:59:01 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 13:59:01 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 13:59:03 INFO  utils.LoggerUtility - Navigating to cart
+30-04-2026 13:59:04 INFO  utils.LoggerUtility - Updating quantity to: 2
+30-04-2026 13:59:05 INFO  utils.LoggerUtility - Browser closed successfully
+30-04-2026 13:59:35 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 13:59:47 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 13:59:47 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 13:59:47 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 13:59:50 INFO  utils.LoggerUtility - Navigating to cart
+30-04-2026 13:59:50 INFO  utils.LoggerUtility - Updating quantity to: 2
+30-04-2026 13:59:51 INFO  utils.LoggerUtility - Clicking recalculate button
+30-04-2026 13:59:52 INFO  utils.LoggerUtility - Browser closed successfully
+30-04-2026 14:18:03 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 14:18:07 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 14:18:07 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 14:18:08 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 14:18:10 INFO  utils.LoggerUtility - Navigating to cart
+30-04-2026 14:18:11 INFO  utils.LoggerUtility - Updating quantity to: 2
+30-04-2026 14:18:11 INFO  utils.LoggerUtility - Clicking recalculate button
+30-04-2026 14:18:12 INFO  utils.LoggerUtility - Browser closed successfully
+30-04-2026 14:18:25 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 14:18:28 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 14:18:28 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 14:18:28 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 14:18:30 INFO  utils.LoggerUtility - Navigating to cart
+30-04-2026 14:18:31 INFO  utils.LoggerUtility - Updating quantity to: 2
+30-04-2026 14:18:31 INFO  utils.LoggerUtility - Clicking recalculate button
+30-04-2026 14:18:32 INFO  utils.LoggerUtility - Browser closed successfully
+30-04-2026 14:18:54 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 14:18:57 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 14:18:57 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 14:18:57 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 14:18:59 INFO  utils.LoggerUtility - Navigating to cart
+30-04-2026 14:19:00 INFO  utils.LoggerUtility - Getting cart item title
+30-04-2026 14:19:00 INFO  utils.LoggerUtility - Browser closed successfully
+30-04-2026 14:19:00 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 14:19:03 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 14:19:03 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 14:19:04 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 14:19:05 INFO  utils.LoggerUtility - Navigating to cart
+30-04-2026 14:19:06 INFO  utils.LoggerUtility - Removing item from cart
+30-04-2026 14:19:07 INFO  utils.LoggerUtility - Getting empty cart message
+30-04-2026 14:19:07 INFO  utils.LoggerUtility - Browser closed successfully
+30-04-2026 14:19:07 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 14:19:10 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 14:19:10 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 14:19:11 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 14:19:12 INFO  utils.LoggerUtility - Navigating to cart
+30-04-2026 14:19:13 INFO  utils.LoggerUtility - Updating quantity to: 2
+30-04-2026 14:19:13 INFO  utils.LoggerUtility - Clicking recalculate button
+30-04-2026 14:19:14 INFO  utils.LoggerUtility - Browser closed successfully
+30-04-2026 14:20:57 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 14:21:00 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 14:21:00 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 14:21:01 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 14:21:02 INFO  utils.LoggerUtility - Navigating to cart
+30-04-2026 14:21:03 INFO  utils.LoggerUtility - Updating quantity to: 2
+30-04-2026 14:21:03 INFO  utils.LoggerUtility - Clicking recalculate button
+30-04-2026 14:21:03 INFO  utils.LoggerUtility - Getting quantity value
+30-04-2026 14:21:04 INFO  utils.LoggerUtility - Browser closed successfully
+30-04-2026 14:21:29 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 14:21:38 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 14:21:38 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 14:21:38 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 14:21:40 INFO  utils.LoggerUtility - Navigating to cart
+30-04-2026 14:21:40 INFO  utils.LoggerUtility - Getting cart item title
+30-04-2026 14:21:41 INFO  utils.LoggerUtility - Browser closed successfully
+30-04-2026 14:21:41 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 14:21:44 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 14:21:44 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 14:21:44 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 14:21:46 INFO  utils.LoggerUtility - Navigating to cart
+30-04-2026 14:21:47 INFO  utils.LoggerUtility - Removing item from cart
+30-04-2026 14:21:47 INFO  utils.LoggerUtility - Getting empty cart message
+30-04-2026 14:21:48 INFO  utils.LoggerUtility - Browser closed successfully
+30-04-2026 14:21:48 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 14:21:51 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 14:21:51 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 14:21:51 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 14:21:53 INFO  utils.LoggerUtility - Navigating to cart
+30-04-2026 14:21:54 INFO  utils.LoggerUtility - Updating quantity to: 2
+30-04-2026 14:21:54 INFO  utils.LoggerUtility - Clicking recalculate button
+30-04-2026 14:21:54 INFO  utils.LoggerUtility - Getting quantity value
+30-04-2026 14:21:54 INFO  utils.LoggerUtility - Browser closed successfully
+30-04-2026 14:30:10 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 14:30:14 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 14:30:14 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 14:30:15 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 14:30:17 INFO  utils.LoggerUtility - Navigating to cart
+30-04-2026 14:30:17 INFO  utils.LoggerUtility - Getting cart item title
+30-04-2026 14:30:17 INFO  utils.LoggerUtility - Navigating to cart
+30-04-2026 14:30:18 INFO  utils.LoggerUtility - Removing item from cart
+30-04-2026 14:30:19 INFO  utils.LoggerUtility - Browser closed successfully
+30-04-2026 14:30:19 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 14:30:22 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 14:30:22 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 14:30:22 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 14:30:24 INFO  utils.LoggerUtility - Navigating to cart
+30-04-2026 14:30:25 INFO  utils.LoggerUtility - Removing item from cart
+30-04-2026 14:30:25 INFO  utils.LoggerUtility - Getting empty cart message
+30-04-2026 14:30:25 INFO  utils.LoggerUtility - Navigating to cart
+30-04-2026 14:30:26 INFO  utils.LoggerUtility - Browser closed successfully
+30-04-2026 14:30:26 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+30-04-2026 14:30:29 INFO  utils.LoggerUtility - Cookie banner accepted
+30-04-2026 14:30:29 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+30-04-2026 14:30:30 INFO  utils.LoggerUtility - Clicking first search result
+30-04-2026 14:30:31 INFO  utils.LoggerUtility - Navigating to cart
+30-04-2026 14:30:32 INFO  utils.LoggerUtility - Updating quantity to: 2
+30-04-2026 14:30:32 INFO  utils.LoggerUtility - Clicking recalculate button
+30-04-2026 14:30:32 INFO  utils.LoggerUtility - Getting quantity value
+30-04-2026 14:30:32 INFO  utils.LoggerUtility - Navigating to cart
+30-04-2026 14:30:33 INFO  utils.LoggerUtility - Removing item from cart
+30-04-2026 14:30:34 INFO  utils.LoggerUtility - Browser closed successfully
+04-05-2026 12:03:33 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+04-05-2026 12:03:38 INFO  utils.LoggerUtility - Cookie banner accepted
+04-05-2026 12:03:38 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+04-05-2026 12:03:39 INFO  utils.LoggerUtility - Clicking first search result
+04-05-2026 12:03:41 INFO  utils.LoggerUtility - Navigating to cart
+04-05-2026 12:03:41 INFO  utils.LoggerUtility - Getting cart item title
+04-05-2026 12:03:41 INFO  utils.LoggerUtility - Navigating to cart
+04-05-2026 12:03:42 INFO  utils.LoggerUtility - Checking if cart is empty
+04-05-2026 12:03:42 INFO  utils.LoggerUtility - Removing item from cart
+04-05-2026 12:03:43 INFO  utils.LoggerUtility - Browser closed successfully
+04-05-2026 12:03:43 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+04-05-2026 12:03:46 INFO  utils.LoggerUtility - Cookie banner accepted
+04-05-2026 12:03:46 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+04-05-2026 12:03:47 INFO  utils.LoggerUtility - Clicking first search result
+04-05-2026 12:03:49 INFO  utils.LoggerUtility - Navigating to cart
+04-05-2026 12:03:50 INFO  utils.LoggerUtility - Removing item from cart
+04-05-2026 12:03:51 INFO  utils.LoggerUtility - Getting empty cart message
+04-05-2026 12:03:51 INFO  utils.LoggerUtility - Navigating to cart
+04-05-2026 12:03:52 INFO  utils.LoggerUtility - Checking if cart is empty
+04-05-2026 12:03:52 INFO  utils.LoggerUtility - Browser closed successfully
+04-05-2026 12:03:52 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+04-05-2026 12:03:55 INFO  utils.LoggerUtility - Cookie banner accepted
+04-05-2026 12:03:55 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+04-05-2026 12:03:56 INFO  utils.LoggerUtility - Clicking first search result
+04-05-2026 12:03:58 INFO  utils.LoggerUtility - Navigating to cart
+04-05-2026 12:03:59 INFO  utils.LoggerUtility - Updating quantity to: 2
+04-05-2026 12:03:59 INFO  utils.LoggerUtility - Clicking recalculate button
+04-05-2026 12:04:00 INFO  utils.LoggerUtility - Getting quantity value
+04-05-2026 12:04:00 INFO  utils.LoggerUtility - Navigating to cart
+04-05-2026 12:04:01 INFO  utils.LoggerUtility - Checking if cart is empty
+04-05-2026 12:04:01 INFO  utils.LoggerUtility - Removing item from cart
+04-05-2026 12:04:02 INFO  utils.LoggerUtility - Browser closed successfully
+04-05-2026 12:04:02 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+04-05-2026 12:04:05 INFO  utils.LoggerUtility - Cookie banner accepted
+04-05-2026 12:04:05 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+04-05-2026 12:04:06 INFO  utils.LoggerUtility - Clicking first search result
+04-05-2026 12:04:07 INFO  utils.LoggerUtility - Getting book title
+04-05-2026 12:04:07 INFO  utils.LoggerUtility - Getting book author
+04-05-2026 12:04:07 INFO  utils.LoggerUtility - Checking if book price is displayed
+04-05-2026 12:04:07 INFO  utils.LoggerUtility - Checking if add to cart button is displayed
+04-05-2026 12:04:07 INFO  utils.LoggerUtility - Checking if book stock is displayed
+04-05-2026 12:04:08 INFO  utils.LoggerUtility - Browser closed successfully
+04-05-2026 12:04:08 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+04-05-2026 12:04:11 INFO  utils.LoggerUtility - Cookie banner accepted
+04-05-2026 12:04:11 INFO  utils.LoggerUtility - Logging in as user
+04-05-2026 12:04:11 INFO  utils.LoggerUtility - Navigating to account page
+04-05-2026 12:04:13 INFO  utils.LoggerUtility - Filling login form with email: automationtestingemail4@gmail.com
+04-05-2026 12:04:13 INFO  utils.LoggerUtility - Submitting login form
+04-05-2026 12:04:15 INFO  utils.LoggerUtility - Clicking 'Adrese' link
+04-05-2026 12:04:16 INFO  utils.LoggerUtility - Opening 'Add New Address' form
+04-05-2026 12:04:18 INFO  utils.LoggerUtility - Filling address form
+04-05-2026 12:04:18 INFO  utils.LoggerUtility - Entering last name: Popescu
+04-05-2026 12:04:18 INFO  utils.LoggerUtility - Entering first name: Ion
+04-05-2026 12:04:18 INFO  utils.LoggerUtility - Entering street: Strada Florilor
+04-05-2026 12:04:19 INFO  utils.LoggerUtility - Entering street number: 10
+04-05-2026 12:04:19 INFO  utils.LoggerUtility - Entering block: A
+04-05-2026 12:04:19 INFO  utils.LoggerUtility - Entering stairs: 2
+04-05-2026 12:04:19 INFO  utils.LoggerUtility - Entering apartment: 15
+04-05-2026 12:04:19 INFO  utils.LoggerUtility - Entering delivery details
+04-05-2026 12:04:19 INFO  utils.LoggerUtility - Entering postal code: 600001
+04-05-2026 12:04:19 INFO  utils.LoggerUtility - Entering city: Bacau
+04-05-2026 12:04:20 INFO  utils.LoggerUtility - Selecting county: Bacau
+04-05-2026 12:04:20 INFO  utils.LoggerUtility - Selecting country: Romania
+04-05-2026 12:04:20 INFO  utils.LoggerUtility - Submitting address
+04-05-2026 12:04:22 INFO  utils.LoggerUtility - Reading address confirmation message
+04-05-2026 12:04:22 INFO  utils.LoggerUtility - Selecting saved address
+04-05-2026 12:04:23 INFO  utils.LoggerUtility - Clicking 'Delete Address' button
+04-05-2026 12:04:25 INFO  utils.LoggerUtility - Confirming address deletion
+04-05-2026 12:04:27 INFO  utils.LoggerUtility - Browser closed successfully
+04-05-2026 12:04:27 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+04-05-2026 12:04:30 INFO  utils.LoggerUtility - Cookie banner accepted
+04-05-2026 12:04:30 INFO  utils.LoggerUtility - Logging in as user
+04-05-2026 12:04:30 INFO  utils.LoggerUtility - Navigating to account page
+04-05-2026 12:04:32 INFO  utils.LoggerUtility - Filling login form with email: automationtestingemail4@gmail.com
+04-05-2026 12:04:32 INFO  utils.LoggerUtility - Submitting login form
+04-05-2026 12:04:34 INFO  utils.LoggerUtility - Clicking 'Adrese' link
+04-05-2026 12:04:35 INFO  utils.LoggerUtility - Opening 'Add New Address' form
+04-05-2026 12:04:37 INFO  utils.LoggerUtility - Filling address form
+04-05-2026 12:04:37 INFO  utils.LoggerUtility - Entering last name: Popescu
+04-05-2026 12:04:37 INFO  utils.LoggerUtility - Entering first name: Ion
+04-05-2026 12:04:37 INFO  utils.LoggerUtility - Entering street: Strada Florilor
+04-05-2026 12:04:37 INFO  utils.LoggerUtility - Entering street number: 10
+04-05-2026 12:04:38 INFO  utils.LoggerUtility - Entering block: A
+04-05-2026 12:04:38 INFO  utils.LoggerUtility - Entering stairs: 2
+04-05-2026 12:04:38 INFO  utils.LoggerUtility - Entering apartment: 15
+04-05-2026 12:04:38 INFO  utils.LoggerUtility - Entering delivery details
+04-05-2026 12:04:38 INFO  utils.LoggerUtility - Entering postal code: 600001
+04-05-2026 12:04:38 INFO  utils.LoggerUtility - Entering city: Bacau
+04-05-2026 12:04:38 INFO  utils.LoggerUtility - Selecting county: Bacau
+04-05-2026 12:04:39 INFO  utils.LoggerUtility - Selecting country: Romania
+04-05-2026 12:04:39 INFO  utils.LoggerUtility - Submitting address
+04-05-2026 12:04:41 INFO  utils.LoggerUtility - Reading address confirmation message
+04-05-2026 12:04:41 INFO  utils.LoggerUtility - Selecting saved address
+04-05-2026 12:04:42 INFO  utils.LoggerUtility - Clicking 'Delete Address' button
+04-05-2026 12:04:44 INFO  utils.LoggerUtility - Confirming address deletion
+04-05-2026 12:04:46 INFO  utils.LoggerUtility - Reading delete confirmation message
+04-05-2026 12:04:46 INFO  utils.LoggerUtility - Browser closed successfully
+04-05-2026 12:04:46 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+04-05-2026 12:04:49 INFO  utils.LoggerUtility - Cookie banner accepted
+04-05-2026 12:04:49 INFO  utils.LoggerUtility - Logging in as user
+04-05-2026 12:04:49 INFO  utils.LoggerUtility - Navigating to account page
+04-05-2026 12:04:51 INFO  utils.LoggerUtility - Filling login form with email: automationtestingemail4@gmail.com
+04-05-2026 12:04:52 INFO  utils.LoggerUtility - Submitting login form
+04-05-2026 12:04:53 INFO  utils.LoggerUtility - Clicking 'Adrese' link
+04-05-2026 12:04:55 INFO  utils.LoggerUtility - Opening 'Add New Address' form
+04-05-2026 12:04:56 INFO  utils.LoggerUtility - Filling address form
+04-05-2026 12:04:56 INFO  utils.LoggerUtility - Entering last name: Popescu
+04-05-2026 12:04:56 INFO  utils.LoggerUtility - Entering first name: Ion
+04-05-2026 12:04:57 INFO  utils.LoggerUtility - Entering street: Strada Florilor
+04-05-2026 12:04:57 INFO  utils.LoggerUtility - Entering street number: 10
+04-05-2026 12:04:57 INFO  utils.LoggerUtility - Entering block: A
+04-05-2026 12:04:57 INFO  utils.LoggerUtility - Entering stairs: 2
+04-05-2026 12:04:57 INFO  utils.LoggerUtility - Entering apartment: 15
+04-05-2026 12:04:57 INFO  utils.LoggerUtility - Entering delivery details
+04-05-2026 12:04:57 INFO  utils.LoggerUtility - Entering postal code: 600001
+04-05-2026 12:04:58 INFO  utils.LoggerUtility - Entering city: Bacau
+04-05-2026 12:04:58 INFO  utils.LoggerUtility - Selecting county: Bacau
+04-05-2026 12:04:58 INFO  utils.LoggerUtility - Selecting country: Romania
+04-05-2026 12:04:58 INFO  utils.LoggerUtility - Submitting address
+04-05-2026 12:05:00 INFO  utils.LoggerUtility - Selecting saved address
+04-05-2026 12:05:01 INFO  utils.LoggerUtility - Editing address form
+04-05-2026 12:05:03 INFO  utils.LoggerUtility - Selecting county: Vrancea
+04-05-2026 12:05:03 INFO  utils.LoggerUtility - Selecting country: Romania
+04-05-2026 12:05:04 INFO  utils.LoggerUtility - Saving address changes
+04-05-2026 12:05:05 INFO  utils.LoggerUtility - Reading edit confirmation message
+04-05-2026 12:05:05 INFO  utils.LoggerUtility - Clicking 'Delete Address' button
+04-05-2026 12:05:07 INFO  utils.LoggerUtility - Confirming address deletion
+04-05-2026 12:05:08 INFO  utils.LoggerUtility - Browser closed successfully
+04-05-2026 12:05:08 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+04-05-2026 12:05:13 INFO  utils.LoggerUtility - Cookie banner accepted
+04-05-2026 12:05:13 INFO  utils.LoggerUtility - Logging in as user
+04-05-2026 12:05:13 INFO  utils.LoggerUtility - Navigating to account page
+04-05-2026 12:05:14 INFO  utils.LoggerUtility - Filling login form with email: automationtestingemail4@gmail.com
+04-05-2026 12:05:15 INFO  utils.LoggerUtility - Submitting login form
+04-05-2026 12:05:16 INFO  utils.LoggerUtility - Checking if logout link is visible
+04-05-2026 12:05:16 INFO  utils.LoggerUtility - Getting logged in email
+04-05-2026 12:05:16 INFO  utils.LoggerUtility - Browser closed successfully
+04-05-2026 12:05:16 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+04-05-2026 12:05:19 INFO  utils.LoggerUtility - Cookie banner accepted
+04-05-2026 12:05:19 INFO  utils.LoggerUtility - Logging in as user
+04-05-2026 12:05:19 INFO  utils.LoggerUtility - Navigating to account page
+04-05-2026 12:05:21 INFO  utils.LoggerUtility - Filling login form with email: automationtestingemail4@gmail.com
+04-05-2026 12:05:21 INFO  utils.LoggerUtility - Submitting login form
+04-05-2026 12:05:23 INFO  utils.LoggerUtility - Clicking logout link
+04-05-2026 12:05:25 INFO  utils.LoggerUtility - Checking if logout confirmation is displayed
+04-05-2026 12:05:25 INFO  utils.LoggerUtility - Browser closed successfully
+04-05-2026 12:05:25 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+04-05-2026 12:05:28 INFO  utils.LoggerUtility - Cookie banner accepted
+04-05-2026 12:05:28 INFO  utils.LoggerUtility - Searching for: Harry Potter
+04-05-2026 12:05:29 INFO  utils.LoggerUtility - Checking if search results are displayed
+04-05-2026 12:05:30 INFO  utils.LoggerUtility - Getting search results count
+04-05-2026 12:05:30 INFO  utils.LoggerUtility - Searching for: Sherlock Holmes
+04-05-2026 12:05:31 INFO  utils.LoggerUtility - Checking if search results are displayed
+04-05-2026 12:05:32 INFO  utils.LoggerUtility - Closing browser
+04-05-2026 12:05:32 INFO  utils.LoggerUtility - Browser closed successfully
+04-05-2026 12:09:18 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+04-05-2026 12:09:22 INFO  utils.LoggerUtility - Cookie banner accepted
+04-05-2026 12:09:22 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+04-05-2026 12:09:22 INFO  utils.LoggerUtility - Clicking first search result
+04-05-2026 12:09:25 INFO  utils.LoggerUtility - Navigating to cart
+04-05-2026 12:09:26 INFO  utils.LoggerUtility - Getting cart item title
+04-05-2026 12:09:26 INFO  utils.LoggerUtility - Navigating to cart
+04-05-2026 12:09:26 INFO  utils.LoggerUtility - Checking if cart is empty
+04-05-2026 12:09:37 INFO  utils.LoggerUtility - Removing item from cart
+04-05-2026 12:09:38 INFO  utils.LoggerUtility - Browser closed successfully
+04-05-2026 12:09:38 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+04-05-2026 12:09:41 INFO  utils.LoggerUtility - Cookie banner accepted
+04-05-2026 12:09:41 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+04-05-2026 12:09:42 INFO  utils.LoggerUtility - Clicking first search result
+04-05-2026 12:09:44 INFO  utils.LoggerUtility - Navigating to cart
+04-05-2026 12:09:44 INFO  utils.LoggerUtility - Removing item from cart
+04-05-2026 12:09:45 INFO  utils.LoggerUtility - Getting empty cart message
+04-05-2026 12:09:45 INFO  utils.LoggerUtility - Navigating to cart
+04-05-2026 12:09:46 INFO  utils.LoggerUtility - Checking if cart is empty
+04-05-2026 12:09:46 INFO  utils.LoggerUtility - Browser closed successfully
+04-05-2026 12:09:46 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+04-05-2026 12:09:50 INFO  utils.LoggerUtility - Cookie banner accepted
+04-05-2026 12:09:50 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+04-05-2026 12:09:50 INFO  utils.LoggerUtility - Clicking first search result
+04-05-2026 12:09:52 INFO  utils.LoggerUtility - Navigating to cart
+04-05-2026 12:09:53 INFO  utils.LoggerUtility - Updating quantity to: 2
+04-05-2026 12:09:53 INFO  utils.LoggerUtility - Clicking recalculate button
+04-05-2026 12:09:54 INFO  utils.LoggerUtility - Getting quantity value
+04-05-2026 12:09:54 INFO  utils.LoggerUtility - Navigating to cart
+04-05-2026 12:09:55 INFO  utils.LoggerUtility - Checking if cart is empty
+04-05-2026 12:10:05 INFO  utils.LoggerUtility - Removing item from cart
+04-05-2026 12:10:06 INFO  utils.LoggerUtility - Browser closed successfully
+04-05-2026 12:10:06 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+04-05-2026 12:10:09 INFO  utils.LoggerUtility - Cookie banner accepted
+04-05-2026 12:10:09 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+04-05-2026 12:10:10 INFO  utils.LoggerUtility - Clicking first search result
+04-05-2026 12:10:11 INFO  utils.LoggerUtility - Getting book title
+04-05-2026 12:10:12 INFO  utils.LoggerUtility - Getting book author
+04-05-2026 12:10:12 INFO  utils.LoggerUtility - Checking if book price is displayed
+04-05-2026 12:10:12 INFO  utils.LoggerUtility - Checking if add to cart button is displayed
+04-05-2026 12:10:12 INFO  utils.LoggerUtility - Checking if book stock is displayed
+04-05-2026 12:10:12 INFO  utils.LoggerUtility - Browser closed successfully
+04-05-2026 12:10:12 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+04-05-2026 12:10:16 INFO  utils.LoggerUtility - Cookie banner accepted
+04-05-2026 12:10:16 INFO  utils.LoggerUtility - Logging in as user
+04-05-2026 12:10:16 INFO  utils.LoggerUtility - Navigating to account page
+04-05-2026 12:10:18 INFO  utils.LoggerUtility - Filling login form with email: automationtestingemail4@gmail.com
+04-05-2026 12:10:18 INFO  utils.LoggerUtility - Submitting login form
+04-05-2026 12:10:19 INFO  utils.LoggerUtility - Clicking 'Adrese' link
+04-05-2026 12:10:21 INFO  utils.LoggerUtility - Opening 'Add New Address' form
+04-05-2026 12:10:23 INFO  utils.LoggerUtility - Filling address form
+04-05-2026 12:10:23 INFO  utils.LoggerUtility - Entering last name: Popescu
+04-05-2026 12:10:23 INFO  utils.LoggerUtility - Entering first name: Ion
+04-05-2026 12:10:23 INFO  utils.LoggerUtility - Entering street: Strada Florilor
+04-05-2026 12:10:23 INFO  utils.LoggerUtility - Entering street number: 10
+04-05-2026 12:10:23 INFO  utils.LoggerUtility - Entering block: A
+04-05-2026 12:10:23 INFO  utils.LoggerUtility - Entering stairs: 2
+04-05-2026 12:10:24 INFO  utils.LoggerUtility - Entering apartment: 15
+04-05-2026 12:10:24 INFO  utils.LoggerUtility - Entering delivery details
+04-05-2026 12:10:24 INFO  utils.LoggerUtility - Entering postal code: 600001
+04-05-2026 12:10:24 INFO  utils.LoggerUtility - Entering city: Bacau
+04-05-2026 12:10:24 INFO  utils.LoggerUtility - Selecting county: Bacau
+04-05-2026 12:10:25 INFO  utils.LoggerUtility - Selecting country: Romania
+04-05-2026 12:10:25 INFO  utils.LoggerUtility - Submitting address
+04-05-2026 12:10:26 INFO  utils.LoggerUtility - Reading address confirmation message
+04-05-2026 12:10:27 INFO  utils.LoggerUtility - Selecting saved address
+04-05-2026 12:10:28 INFO  utils.LoggerUtility - Clicking 'Delete Address' button
+04-05-2026 12:10:30 INFO  utils.LoggerUtility - Confirming address deletion
+04-05-2026 12:10:32 INFO  utils.LoggerUtility - Browser closed successfully
+04-05-2026 12:10:32 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+04-05-2026 12:10:35 INFO  utils.LoggerUtility - Cookie banner accepted
+04-05-2026 12:10:35 INFO  utils.LoggerUtility - Logging in as user
+04-05-2026 12:10:35 INFO  utils.LoggerUtility - Navigating to account page
+04-05-2026 12:10:37 INFO  utils.LoggerUtility - Filling login form with email: automationtestingemail4@gmail.com
+04-05-2026 12:10:37 INFO  utils.LoggerUtility - Submitting login form
+04-05-2026 12:10:37 INFO  utils.LoggerUtility - Clicking 'Adrese' link
+04-05-2026 12:10:40 INFO  utils.LoggerUtility - Opening 'Add New Address' form
+04-05-2026 12:10:42 INFO  utils.LoggerUtility - Filling address form
+04-05-2026 12:10:42 INFO  utils.LoggerUtility - Entering last name: Popescu
+04-05-2026 12:10:42 INFO  utils.LoggerUtility - Entering first name: Ion
+04-05-2026 12:10:42 INFO  utils.LoggerUtility - Entering street: Strada Florilor
+04-05-2026 12:10:42 INFO  utils.LoggerUtility - Entering street number: 10
+04-05-2026 12:10:43 INFO  utils.LoggerUtility - Entering block: A
+04-05-2026 12:10:43 INFO  utils.LoggerUtility - Entering stairs: 2
+04-05-2026 12:10:43 INFO  utils.LoggerUtility - Entering apartment: 15
+04-05-2026 12:10:43 INFO  utils.LoggerUtility - Entering delivery details
+04-05-2026 12:10:43 INFO  utils.LoggerUtility - Entering postal code: 600001
+04-05-2026 12:10:43 INFO  utils.LoggerUtility - Entering city: Bacau
+04-05-2026 12:10:44 INFO  utils.LoggerUtility - Selecting county: Bacau
+04-05-2026 12:10:44 INFO  utils.LoggerUtility - Selecting country: Romania
+04-05-2026 12:10:44 INFO  utils.LoggerUtility - Submitting address
+04-05-2026 12:10:46 INFO  utils.LoggerUtility - Reading address confirmation message
+04-05-2026 12:10:46 INFO  utils.LoggerUtility - Selecting saved address
+04-05-2026 12:10:47 INFO  utils.LoggerUtility - Clicking 'Delete Address' button
+04-05-2026 12:10:49 INFO  utils.LoggerUtility - Confirming address deletion
+04-05-2026 12:10:50 INFO  utils.LoggerUtility - Reading delete confirmation message
+04-05-2026 12:10:51 INFO  utils.LoggerUtility - Browser closed successfully
+04-05-2026 12:10:51 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+04-05-2026 12:10:54 INFO  utils.LoggerUtility - Cookie banner accepted
+04-05-2026 12:10:54 INFO  utils.LoggerUtility - Logging in as user
+04-05-2026 12:10:54 INFO  utils.LoggerUtility - Navigating to account page
+04-05-2026 12:10:56 INFO  utils.LoggerUtility - Filling login form with email: automationtestingemail4@gmail.com
+04-05-2026 12:10:56 INFO  utils.LoggerUtility - Submitting login form
+04-05-2026 12:10:58 INFO  utils.LoggerUtility - Clicking 'Adrese' link
+04-05-2026 12:11:00 INFO  utils.LoggerUtility - Opening 'Add New Address' form
+04-05-2026 12:11:01 INFO  utils.LoggerUtility - Filling address form
+04-05-2026 12:11:01 INFO  utils.LoggerUtility - Entering last name: Popescu
+04-05-2026 12:11:01 INFO  utils.LoggerUtility - Entering first name: Ion
+04-05-2026 12:11:02 INFO  utils.LoggerUtility - Entering street: Strada Florilor
+04-05-2026 12:11:02 INFO  utils.LoggerUtility - Entering street number: 10
+04-05-2026 12:11:02 INFO  utils.LoggerUtility - Entering block: A
+04-05-2026 12:11:02 INFO  utils.LoggerUtility - Entering stairs: 2
+04-05-2026 12:11:02 INFO  utils.LoggerUtility - Entering apartment: 15
+04-05-2026 12:11:02 INFO  utils.LoggerUtility - Entering delivery details
+04-05-2026 12:11:02 INFO  utils.LoggerUtility - Entering postal code: 600001
+04-05-2026 12:11:03 INFO  utils.LoggerUtility - Entering city: Bacau
+04-05-2026 12:11:03 INFO  utils.LoggerUtility - Selecting county: Bacau
+04-05-2026 12:11:03 INFO  utils.LoggerUtility - Selecting country: Romania
+04-05-2026 12:11:03 INFO  utils.LoggerUtility - Submitting address
+04-05-2026 12:11:05 INFO  utils.LoggerUtility - Selecting saved address
+04-05-2026 12:11:06 INFO  utils.LoggerUtility - Editing address form
+04-05-2026 12:11:08 INFO  utils.LoggerUtility - Selecting county: Vrancea
+04-05-2026 12:11:09 INFO  utils.LoggerUtility - Selecting country: Romania
+04-05-2026 12:11:09 INFO  utils.LoggerUtility - Saving address changes
+04-05-2026 12:11:11 INFO  utils.LoggerUtility - Reading edit confirmation message
+04-05-2026 12:11:11 INFO  utils.LoggerUtility - Clicking 'Delete Address' button
+04-05-2026 12:11:12 INFO  utils.LoggerUtility - Confirming address deletion
+04-05-2026 12:11:14 INFO  utils.LoggerUtility - Browser closed successfully
+04-05-2026 12:11:14 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+04-05-2026 12:11:18 INFO  utils.LoggerUtility - Cookie banner accepted
+04-05-2026 12:11:18 INFO  utils.LoggerUtility - Logging in as user
+04-05-2026 12:11:18 INFO  utils.LoggerUtility - Navigating to account page
+04-05-2026 12:11:20 INFO  utils.LoggerUtility - Filling login form with email: automationtestingemail4@gmail.com
+04-05-2026 12:11:20 INFO  utils.LoggerUtility - Submitting login form
+04-05-2026 12:11:22 INFO  utils.LoggerUtility - Checking if logout link is visible
+04-05-2026 12:11:22 INFO  utils.LoggerUtility - Getting logged in email
+04-05-2026 12:11:22 INFO  utils.LoggerUtility - Browser closed successfully
+04-05-2026 12:11:22 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+04-05-2026 12:11:25 INFO  utils.LoggerUtility - Cookie banner accepted
+04-05-2026 12:11:25 INFO  utils.LoggerUtility - Logging in as user
+04-05-2026 12:11:25 INFO  utils.LoggerUtility - Navigating to account page
+04-05-2026 12:11:27 INFO  utils.LoggerUtility - Filling login form with email: automationtestingemail4@gmail.com
+04-05-2026 12:11:27 INFO  utils.LoggerUtility - Submitting login form
+04-05-2026 12:11:29 INFO  utils.LoggerUtility - Clicking logout link
+04-05-2026 12:11:30 INFO  utils.LoggerUtility - Checking if logout confirmation is displayed
+04-05-2026 12:11:31 INFO  utils.LoggerUtility - Browser closed successfully
+04-05-2026 12:11:31 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+04-05-2026 12:11:34 INFO  utils.LoggerUtility - Cookie banner accepted
+04-05-2026 12:11:34 INFO  utils.LoggerUtility - Searching for: Harry Potter
+04-05-2026 12:11:35 INFO  utils.LoggerUtility - Checking if search results are displayed
+04-05-2026 12:11:36 INFO  utils.LoggerUtility - Getting search results count
+04-05-2026 12:11:36 INFO  utils.LoggerUtility - Searching for: Sherlock Holmes
+04-05-2026 12:11:37 INFO  utils.LoggerUtility - Checking if search results are displayed
+04-05-2026 12:11:38 INFO  utils.LoggerUtility - Getting search results count
+04-05-2026 12:11:38 INFO  utils.LoggerUtility - Searching for: Lord of the Rings
+04-05-2026 12:11:39 INFO  utils.LoggerUtility - Checking if search results are displayed
+04-05-2026 12:11:39 INFO  utils.LoggerUtility - Getting search results count
+04-05-2026 12:11:40 INFO  utils.LoggerUtility - Browser closed successfully
+04-05-2026 12:19:56 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+04-05-2026 12:19:59 INFO  utils.LoggerUtility - Cookie banner accepted
+04-05-2026 12:19:59 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+04-05-2026 12:20:00 INFO  utils.LoggerUtility - Clicking first search result
+04-05-2026 12:20:02 INFO  utils.LoggerUtility - Navigating to cart
+04-05-2026 12:20:03 INFO  utils.LoggerUtility - Getting cart item title
+04-05-2026 12:20:03 INFO  utils.LoggerUtility - Navigating to cart
+04-05-2026 12:20:04 INFO  utils.LoggerUtility - Checking if cart is empty
+04-05-2026 12:20:14 INFO  utils.LoggerUtility - Removing item from cart
+04-05-2026 12:20:15 INFO  utils.LoggerUtility - Browser closed successfully
+04-05-2026 12:20:15 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+04-05-2026 12:20:18 INFO  utils.LoggerUtility - Cookie banner accepted
+04-05-2026 12:20:18 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+04-05-2026 12:20:19 INFO  utils.LoggerUtility - Clicking first search result
+04-05-2026 12:20:21 INFO  utils.LoggerUtility - Navigating to cart
+04-05-2026 12:20:22 INFO  utils.LoggerUtility - Removing item from cart
+04-05-2026 12:20:23 INFO  utils.LoggerUtility - Getting empty cart message
+04-05-2026 12:20:23 INFO  utils.LoggerUtility - Navigating to cart
+04-05-2026 12:20:23 INFO  utils.LoggerUtility - Checking if cart is empty
+04-05-2026 12:20:24 INFO  utils.LoggerUtility - Browser closed successfully
+04-05-2026 12:20:24 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+04-05-2026 12:20:27 INFO  utils.LoggerUtility - Cookie banner accepted
+04-05-2026 12:20:27 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+04-05-2026 12:20:28 INFO  utils.LoggerUtility - Clicking first search result
+04-05-2026 12:20:30 INFO  utils.LoggerUtility - Navigating to cart
+04-05-2026 12:20:31 INFO  utils.LoggerUtility - Updating quantity to: 2
+04-05-2026 12:20:31 INFO  utils.LoggerUtility - Clicking recalculate button
+04-05-2026 12:20:31 INFO  utils.LoggerUtility - Getting quantity value
+04-05-2026 12:20:31 INFO  utils.LoggerUtility - Navigating to cart
+04-05-2026 12:20:32 INFO  utils.LoggerUtility - Checking if cart is empty
+04-05-2026 12:20:42 INFO  utils.LoggerUtility - Removing item from cart
+04-05-2026 12:20:43 INFO  utils.LoggerUtility - Browser closed successfully
+04-05-2026 12:20:43 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+04-05-2026 12:20:46 INFO  utils.LoggerUtility - Cookie banner accepted
+04-05-2026 12:20:46 INFO  utils.LoggerUtility - Searching for: Secretul secretelor
+04-05-2026 12:20:47 INFO  utils.LoggerUtility - Clicking first search result
+04-05-2026 12:20:48 INFO  utils.LoggerUtility - Getting book title
+04-05-2026 12:20:48 INFO  utils.LoggerUtility - Getting book author
+04-05-2026 12:20:48 INFO  utils.LoggerUtility - Checking if book price is displayed
+04-05-2026 12:20:48 INFO  utils.LoggerUtility - Checking if add to cart button is displayed
+04-05-2026 12:20:49 INFO  utils.LoggerUtility - Checking if book stock is displayed
+04-05-2026 12:20:49 INFO  utils.LoggerUtility - Browser closed successfully
+04-05-2026 12:20:49 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+04-05-2026 12:20:52 INFO  utils.LoggerUtility - Cookie banner accepted
+04-05-2026 12:20:53 INFO  utils.LoggerUtility - Logging in as user
+04-05-2026 12:20:53 INFO  utils.LoggerUtility - Navigating to account page
+04-05-2026 12:20:54 INFO  utils.LoggerUtility - Filling login form with email: automationtestingemail4@gmail.com
+04-05-2026 12:20:55 INFO  utils.LoggerUtility - Submitting login form
+04-05-2026 12:20:56 INFO  utils.LoggerUtility - Clicking 'Adrese' link
+04-05-2026 12:20:58 INFO  utils.LoggerUtility - Opening 'Add New Address' form
+04-05-2026 12:20:59 INFO  utils.LoggerUtility - Filling address form
+04-05-2026 12:20:59 INFO  utils.LoggerUtility - Entering last name: Popescu
+04-05-2026 12:21:00 INFO  utils.LoggerUtility - Entering first name: Ion
+04-05-2026 12:21:00 INFO  utils.LoggerUtility - Entering street: Strada Florilor
+04-05-2026 12:21:00 INFO  utils.LoggerUtility - Entering street number: 10
+04-05-2026 12:21:00 INFO  utils.LoggerUtility - Entering block: A
+04-05-2026 12:21:00 INFO  utils.LoggerUtility - Entering stairs: 2
+04-05-2026 12:21:00 INFO  utils.LoggerUtility - Entering apartment: 15
+04-05-2026 12:21:00 INFO  utils.LoggerUtility - Entering delivery details
+04-05-2026 12:21:01 INFO  utils.LoggerUtility - Entering postal code: 600001
+04-05-2026 12:21:01 INFO  utils.LoggerUtility - Entering city: Bacau
+04-05-2026 12:21:01 INFO  utils.LoggerUtility - Selecting county: Bacau
+04-05-2026 12:21:01 INFO  utils.LoggerUtility - Selecting country: Romania
+04-05-2026 12:21:01 INFO  utils.LoggerUtility - Submitting address
+04-05-2026 12:21:03 INFO  utils.LoggerUtility - Reading address confirmation message
+04-05-2026 12:21:03 INFO  utils.LoggerUtility - Selecting saved address
+04-05-2026 12:21:05 INFO  utils.LoggerUtility - Clicking 'Delete Address' button
+04-05-2026 12:21:06 INFO  utils.LoggerUtility - Confirming address deletion
+04-05-2026 12:21:08 INFO  utils.LoggerUtility - Browser closed successfully
+04-05-2026 12:21:08 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+04-05-2026 12:21:12 INFO  utils.LoggerUtility - Cookie banner accepted
+04-05-2026 12:21:12 INFO  utils.LoggerUtility - Logging in as user
+04-05-2026 12:21:12 INFO  utils.LoggerUtility - Navigating to account page
+04-05-2026 12:21:14 INFO  utils.LoggerUtility - Filling login form with email: automationtestingemail4@gmail.com
+04-05-2026 12:21:14 INFO  utils.LoggerUtility - Submitting login form
+04-05-2026 12:21:16 INFO  utils.LoggerUtility - Clicking 'Adrese' link
+04-05-2026 12:21:17 INFO  utils.LoggerUtility - Opening 'Add New Address' form
+04-05-2026 12:21:19 INFO  utils.LoggerUtility - Filling address form
+04-05-2026 12:21:19 INFO  utils.LoggerUtility - Entering last name: Popescu
+04-05-2026 12:21:19 INFO  utils.LoggerUtility - Entering first name: Ion
+04-05-2026 12:21:19 INFO  utils.LoggerUtility - Entering street: Strada Florilor
+04-05-2026 12:21:20 INFO  utils.LoggerUtility - Entering street number: 10
+04-05-2026 12:21:20 INFO  utils.LoggerUtility - Entering block: A
+04-05-2026 12:21:20 INFO  utils.LoggerUtility - Entering stairs: 2
+04-05-2026 12:21:20 INFO  utils.LoggerUtility - Entering apartment: 15
+04-05-2026 12:21:20 INFO  utils.LoggerUtility - Entering delivery details
+04-05-2026 12:21:20 INFO  utils.LoggerUtility - Entering postal code: 600001
+04-05-2026 12:21:20 INFO  utils.LoggerUtility - Entering city: Bacau
+04-05-2026 12:21:21 INFO  utils.LoggerUtility - Selecting county: Bacau
+04-05-2026 12:21:21 INFO  utils.LoggerUtility - Selecting country: Romania
+04-05-2026 12:21:21 INFO  utils.LoggerUtility - Submitting address
+04-05-2026 12:21:23 INFO  utils.LoggerUtility - Reading address confirmation message
+04-05-2026 12:21:23 INFO  utils.LoggerUtility - Selecting saved address
+04-05-2026 12:21:24 INFO  utils.LoggerUtility - Clicking 'Delete Address' button
+04-05-2026 12:21:26 INFO  utils.LoggerUtility - Confirming address deletion
+04-05-2026 12:21:28 INFO  utils.LoggerUtility - Reading delete confirmation message
+04-05-2026 12:21:28 INFO  utils.LoggerUtility - Browser closed successfully
+04-05-2026 12:21:28 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+04-05-2026 12:21:31 INFO  utils.LoggerUtility - Cookie banner accepted
+04-05-2026 12:21:31 INFO  utils.LoggerUtility - Logging in as user
+04-05-2026 12:21:31 INFO  utils.LoggerUtility - Navigating to account page
+04-05-2026 12:21:33 INFO  utils.LoggerUtility - Filling login form with email: automationtestingemail4@gmail.com
+04-05-2026 12:21:34 INFO  utils.LoggerUtility - Submitting login form
+04-05-2026 12:21:34 INFO  utils.LoggerUtility - Clicking 'Adrese' link
+04-05-2026 12:21:37 INFO  utils.LoggerUtility - Opening 'Add New Address' form
+04-05-2026 12:21:38 INFO  utils.LoggerUtility - Filling address form
+04-05-2026 12:21:38 INFO  utils.LoggerUtility - Entering last name: Popescu
+04-05-2026 12:21:38 INFO  utils.LoggerUtility - Entering first name: Ion
+04-05-2026 12:21:38 INFO  utils.LoggerUtility - Entering street: Strada Florilor
+04-05-2026 12:21:39 INFO  utils.LoggerUtility - Entering street number: 10
+04-05-2026 12:21:39 INFO  utils.LoggerUtility - Entering block: A
+04-05-2026 12:21:39 INFO  utils.LoggerUtility - Entering stairs: 2
+04-05-2026 12:21:39 INFO  utils.LoggerUtility - Entering apartment: 15
+04-05-2026 12:21:39 INFO  utils.LoggerUtility - Entering delivery details
+04-05-2026 12:21:39 INFO  utils.LoggerUtility - Entering postal code: 600001
+04-05-2026 12:21:40 INFO  utils.LoggerUtility - Entering city: Bacau
+04-05-2026 12:21:40 INFO  utils.LoggerUtility - Selecting county: Bacau
+04-05-2026 12:21:40 INFO  utils.LoggerUtility - Selecting country: Romania
+04-05-2026 12:21:40 INFO  utils.LoggerUtility - Submitting address
+04-05-2026 12:21:42 INFO  utils.LoggerUtility - Selecting saved address
+04-05-2026 12:21:43 INFO  utils.LoggerUtility - Editing address form
+04-05-2026 12:21:45 INFO  utils.LoggerUtility - Selecting county: Vrancea
+04-05-2026 12:21:45 INFO  utils.LoggerUtility - Selecting country: Romania
+04-05-2026 12:21:46 INFO  utils.LoggerUtility - Saving address changes
+04-05-2026 12:21:47 INFO  utils.LoggerUtility - Reading edit confirmation message
+04-05-2026 12:21:47 INFO  utils.LoggerUtility - Clicking 'Delete Address' button
+04-05-2026 12:21:49 INFO  utils.LoggerUtility - Confirming address deletion
+04-05-2026 12:21:51 INFO  utils.LoggerUtility - Browser closed successfully
+04-05-2026 12:21:51 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+04-05-2026 12:21:54 INFO  utils.LoggerUtility - Cookie banner accepted
+04-05-2026 12:21:54 INFO  utils.LoggerUtility - Logging in as user
+04-05-2026 12:21:54 INFO  utils.LoggerUtility - Navigating to account page
+04-05-2026 12:21:56 INFO  utils.LoggerUtility - Filling login form with email: automationtestingemail4@gmail.com
+04-05-2026 12:21:56 INFO  utils.LoggerUtility - Submitting login form
+04-05-2026 12:21:58 INFO  utils.LoggerUtility - Checking if logout link is visible
+04-05-2026 12:21:58 INFO  utils.LoggerUtility - Getting logged in email
+04-05-2026 12:21:58 INFO  utils.LoggerUtility - Browser closed successfully
+04-05-2026 12:21:58 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+04-05-2026 12:22:01 INFO  utils.LoggerUtility - Cookie banner accepted
+04-05-2026 12:22:01 INFO  utils.LoggerUtility - Logging in as user
+04-05-2026 12:22:01 INFO  utils.LoggerUtility - Navigating to account page
+04-05-2026 12:22:03 INFO  utils.LoggerUtility - Filling login form with email: automationtestingemail4@gmail.com
+04-05-2026 12:22:03 INFO  utils.LoggerUtility - Submitting login form
+04-05-2026 12:22:05 INFO  utils.LoggerUtility - Clicking logout link
+04-05-2026 12:22:06 INFO  utils.LoggerUtility - Checking if logout confirmation is displayed
+04-05-2026 12:22:07 INFO  utils.LoggerUtility - Browser closed successfully
+04-05-2026 12:22:07 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+04-05-2026 12:22:10 INFO  utils.LoggerUtility - Cookie banner accepted
+04-05-2026 12:22:10 INFO  utils.LoggerUtility - Searching for: Harry Potter
+04-05-2026 12:22:11 INFO  utils.LoggerUtility - Checking if search results are displayed
+04-05-2026 12:22:12 INFO  utils.LoggerUtility - Getting search results count
+04-05-2026 12:22:12 INFO  utils.LoggerUtility - Searching for: Sherlock Holmes
+04-05-2026 12:22:13 INFO  utils.LoggerUtility - Checking if search results are displayed
+04-05-2026 12:22:14 INFO  utils.LoggerUtility - Getting search results count
+04-05-2026 12:22:14 INFO  utils.LoggerUtility - Searching for: Lord of the Rings
+04-05-2026 12:22:14 INFO  utils.LoggerUtility - Checking if search results are displayed
+04-05-2026 12:22:15 INFO  utils.LoggerUtility - Getting search results count
+04-05-2026 12:22:16 INFO  utils.LoggerUtility - Browser closed successfully

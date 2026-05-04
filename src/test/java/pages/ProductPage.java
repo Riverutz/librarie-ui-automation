@@ -3,6 +3,7 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import utils.LoggerUtility;
 
 public class ProductPage extends BasePage {
     public ProductPage(WebDriver driver) {
@@ -24,25 +25,41 @@ public class ProductPage extends BasePage {
     @FindBy(xpath = "//li[contains(text(),'Carte')]")
     private WebElement bookStock;
 
-    public boolean isBookTitleDisplayed() {
-        return elementsMethods.isElementDisplayed(bookTitle);
-
-    }
-
-    public boolean isBookAuthorDisplayed() {
-        return elementsMethods.isElementDisplayed(bookAuthor);
-    }
+    @FindBy(xpath = "//a[@title='ADAUGA IN COS']")
+    private WebElement addToCartButton;
 
     public boolean isBookPriceDisplayed() {
+        LoggerUtility.info("Checking if book price is displayed");
         return elementsMethods.isElementDisplayed(bookPrice);
     }
 
     public boolean isAddToCartDisplayed() {
+        LoggerUtility.info("Checking if add to cart button is displayed");
         return elementsMethods.isElementDisplayed(addToCart);
     }
 
     public boolean isBookStockDisplayed() {
+        LoggerUtility.info("Checking if book stock is displayed");
         return elementsMethods.isElementDisplayed(bookStock);
+    }
+
+    public String getBookTitle() {
+        LoggerUtility.info("Getting book title");
+        return elementsMethods.getText(bookTitle);
+    }
+
+    public String getBookAuthor() {
+        LoggerUtility.info("Getting book author");
+        return elementsMethods.getText(bookAuthor);
+    }
+
+    public String getBookPrice() {
+        LoggerUtility.info("Getting book price");
+        return elementsMethods.getText(bookPrice);
+    }
+
+    public void addToCart(){
+        elementsMethods.clickElement(addToCartButton);
     }
 }
 
