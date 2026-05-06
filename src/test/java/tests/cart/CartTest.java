@@ -28,7 +28,6 @@ public class CartTest extends BaseTest {
 
     @AfterMethod
     public void cleanUpCart() {
-        cartPage.navigateToCart();
         if (!cartPage.isCartEmpty()) {
             cartPage.removeItem();
         }

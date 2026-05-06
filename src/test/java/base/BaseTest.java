@@ -9,23 +9,24 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import pages.LoginPage;
 import utils.LoggerUtility;
+import utils.ScreenshotUtility;
 
 public class BaseTest {
-    private WebDriver driver;
+    private final ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
     public WebDriver getDriver() {
-        return driver;
+        return driver.get();
     }
 
     @BeforeMethod
     public void setUp() {
         LoggerUtility.info("Starting browser and navigating to librarie.net");
-        driver = new ChromeDriver();
-        driver.get("https://www.librarie.net/");
-        driver.manage().window().maximize();
+        driver.set(new ChromeDriver());
+        driver.get().get("https://www.librarie.net/");
+        driver.get().manage().window().maximize();
 
         try {
-            driver.findElement(By.id("cookiescript_accept")).click();
+            driver.get().findElement(By.id("cookiescript_accept")).click();
             LoggerUtility.info("Cookie banner accepted");
         } catch (Exception ignored) {
             LoggerUtility.warn("Cookie banner not found, skipping");
@@ -35,10 +36,12 @@ public class BaseTest {
     @AfterMethod
     public void tearDown(ITestResult result) {
         if (!result.isSuccess()) {
-            LoggerUtility.info("Closing browser");
+            LoggerUtility.error("Test failed: " + result.getName());
         }
-        if (driver != null) {
-            driver.quit();
+        LoggerUtility.info("Closing browser");
+        if (driver.get() != null) {
+            driver.get().quit();
+            driver.remove();
             LoggerUtility.info("Browser closed successfully");
         }
     }
