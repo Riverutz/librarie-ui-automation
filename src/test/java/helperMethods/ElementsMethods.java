@@ -6,6 +6,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
+import org.openqa.selenium.StaleElementReferenceException;
 
 @AllArgsConstructor
 public class ElementsMethods {
@@ -17,10 +18,19 @@ public class ElementsMethods {
     }
 
     public void clickElement(WebElement element) {
-        waitForElementVisible(element);
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("var badge = document.getElementById('cookiescript_badge'); if(badge) badge.style.display='none';");
-        element.click();
+        int attempts = 0;
+        while (attempts < 3) {
+            try {
+                waitForElementVisible(element);
+                JavascriptExecutor js = (JavascriptExecutor) driver;
+                js.executeScript("var badge = document.getElementById('cookiescript_badge'); if(badge) badge.style.display='none';");
+                element.click();
+                return;
+            } catch (StaleElementReferenceException e) {
+                attempts++;
+                if (attempts == 3) throw e;
+            }
+        }
     }
 
     public void fillElement(WebElement element, String text) {
