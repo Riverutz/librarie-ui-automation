@@ -5,7 +5,9 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.time.Duration;
+
 import org.openqa.selenium.StaleElementReferenceException;
 
 @AllArgsConstructor
@@ -90,11 +92,18 @@ public class ElementsMethods {
     }
 
     public boolean isElementDisplayed(WebElement element) {
-        try {
-            waitForElementVisible(element);
-            return element.isDisplayed();
-        } catch (Exception e) {
-            return false;
+        int attempts = 0;
+        while (attempts < 3) {
+            try {
+                waitForElementVisible(element);
+                return element.isDisplayed();
+            } catch (StaleElementReferenceException e) {
+                attempts++;
+                if (attempts == 3) return false;
+            } catch (Exception e) {
+                return false;
+            }
         }
+        return false;
     }
 }
