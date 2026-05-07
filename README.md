@@ -13,6 +13,7 @@ Automated UI testing framework for [librarie.net](https://www.librarie.net), a R
 - **WebDriverManager** - Automatic browser driver management
 - **Maven** - Build and dependency management
 - **Allure** - Test reporting with screenshots on failure
+- **Maven Surefire Plugin** - Test execution and AspectJ configuration
 
 ## 📁 Project Structure
 
@@ -62,7 +63,7 @@ src/test/
 4. Generate Allure report: `allure serve target/allure-results`
 
 ## 🔄 CI/CD
-Tests run automatically on every push and pull request via GitHub Actions.
+Tests can be triggered manually via GitHub Actions in headless Chrome.
 
 ## 📋 Design Patterns
 
