@@ -1,16 +1,18 @@
 package base;
 
+import lombok.Getter;
 import objectdata.LoginObject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import pages.LoginPage;
 import utils.LoggerUtility;
-import utils.ScreenshotUtility;
 
+@Getter
 public class BaseTest {
     private final ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
@@ -21,7 +23,11 @@ public class BaseTest {
     @BeforeMethod
     public void setUp() {
         LoggerUtility.info("Starting browser and navigating to librarie.net");
-        driver.set(new ChromeDriver());
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless=new");
+
+        LoggerUtility.info("Running in headless mode");
+        driver.set(new ChromeDriver(options));
         driver.get().get("https://www.librarie.net/");
         driver.get().manage().window().maximize();
 

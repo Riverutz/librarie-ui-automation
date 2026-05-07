@@ -3048,3 +3048,75 @@
 06-05-2026 14:39:24 INFO  utils.LoggerUtility - Checking if book stock is displayed
 06-05-2026 14:39:24 INFO  utils.LoggerUtility - Closing browser
 06-05-2026 14:39:24 INFO  utils.LoggerUtility - Browser closed successfully
+07-05-2026 14:01:36 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+07-05-2026 14:01:40 INFO  utils.LoggerUtility - Cookie banner accepted
+07-05-2026 14:01:41 INFO  utils.LoggerUtility - Logging in as user
+07-05-2026 14:01:41 INFO  utils.LoggerUtility - Navigating to account page
+07-05-2026 14:01:42 INFO  utils.LoggerUtility - Filling login form with email: automationtestingemail4@gmail.com
+07-05-2026 14:01:42 INFO  utils.LoggerUtility - Submitting login form
+07-05-2026 14:01:44 INFO  utils.LoggerUtility - Clicking 'Adrese' link
+07-05-2026 14:01:45 INFO  utils.LoggerUtility - Opening 'Add New Address' form
+07-05-2026 14:01:46 INFO  utils.LoggerUtility - Selecting saved address
+07-05-2026 14:01:48 INFO  utils.LoggerUtility - Clicking 'Delete Address' button
+07-05-2026 14:01:49 INFO  utils.LoggerUtility - Confirming address deletion
+07-05-2026 14:04:15 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+07-05-2026 14:04:20 INFO  utils.LoggerUtility - Cookie banner accepted
+07-05-2026 14:04:20 INFO  utils.LoggerUtility - Logging in as user
+07-05-2026 14:04:20 INFO  utils.LoggerUtility - Navigating to account page
+07-05-2026 14:04:22 INFO  utils.LoggerUtility - Filling login form with email: automationtestingemail4@gmail.com
+07-05-2026 14:04:22 INFO  utils.LoggerUtility - Submitting login form
+07-05-2026 14:04:23 INFO  utils.LoggerUtility - Clicking 'Adrese' link
+07-05-2026 14:04:25 INFO  utils.LoggerUtility - Opening 'Add New Address' form
+07-05-2026 14:04:26 INFO  utils.LoggerUtility - Selecting saved address
+07-05-2026 14:04:27 INFO  utils.LoggerUtility - Clicking 'Delete Address' button
+07-05-2026 14:04:28 INFO  utils.LoggerUtility - Confirming address deletion
+07-05-2026 14:07:12 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+07-05-2026 14:07:16 INFO  utils.LoggerUtility - Cookie banner accepted
+07-05-2026 14:07:16 INFO  utils.LoggerUtility - Logging in as user
+07-05-2026 14:07:16 INFO  utils.LoggerUtility - Navigating to account page
+07-05-2026 14:07:18 INFO  utils.LoggerUtility - Filling login form with email: automationtestingemail4@gmail.com
+07-05-2026 14:07:18 INFO  utils.LoggerUtility - Submitting login form
+07-05-2026 14:07:19 INFO  utils.LoggerUtility - Clicking 'Adrese' link
+07-05-2026 14:07:20 INFO  utils.LoggerUtility - Opening 'Add New Address' form
+07-05-2026 14:07:21 INFO  utils.LoggerUtility - Selecting saved address
+07-05-2026 14:07:23 INFO  utils.LoggerUtility - Clicking 'Delete Address' button
+07-05-2026 14:07:24 INFO  utils.LoggerUtility - Confirming address deletion
+07-05-2026 14:09:23 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+07-05-2026 14:09:28 INFO  utils.LoggerUtility - Cookie banner accepted
+07-05-2026 14:09:28 INFO  utils.LoggerUtility - Logging in as user
+07-05-2026 14:09:28 INFO  utils.LoggerUtility - Navigating to account page
+07-05-2026 14:09:29 INFO  utils.LoggerUtility - Filling login form with email: automationtestingemail4@gmail.com
+07-05-2026 14:09:29 INFO  utils.LoggerUtility - Submitting login form
+07-05-2026 14:09:31 INFO  utils.LoggerUtility - Clicking 'Adrese' link
+07-05-2026 14:09:32 INFO  utils.LoggerUtility - Opening 'Add New Address' form
+07-05-2026 14:09:33 INFO  utils.LoggerUtility - Selecting saved address
+07-05-2026 14:09:34 INFO  utils.LoggerUtility - Clicking 'Delete Address' button
+07-05-2026 14:09:36 INFO  utils.LoggerUtility - Confirming address deletion
+07-05-2026 14:12:17 INFO  utils.LoggerUtility - Starting browser and navigating to librarie.net
+07-05-2026 14:12:21 INFO  utils.LoggerUtility - Cookie banner accepted
+07-05-2026 14:12:22 INFO  utils.LoggerUtility - Logging in as user
+07-05-2026 14:12:22 INFO  utils.LoggerUtility - Navigating to account page
+07-05-2026 14:12:23 INFO  utils.LoggerUtility - Filling login form with email: automationtestingemail4@gmail.com
+07-05-2026 14:12:23 INFO  utils.LoggerUtility - Submitting login form
+07-05-2026 14:12:25 INFO  utils.LoggerUtility - Clicking 'Adrese' link
+07-05-2026 14:12:26 INFO  utils.LoggerUtility - Opening 'Add New Address' form
+07-05-2026 14:12:27 INFO  utils.LoggerUtility - Filling address form
+07-05-2026 14:12:27 INFO  utils.LoggerUtility - Entering last name: Popescu
+07-05-2026 14:12:27 INFO  utils.LoggerUtility - Entering first name: Ion
+07-05-2026 14:12:28 INFO  utils.LoggerUtility - Entering street: Strada Florilor
+07-05-2026 14:12:28 INFO  utils.LoggerUtility - Entering street number: 10
+07-05-2026 14:12:28 INFO  utils.LoggerUtility - Entering block: A
+07-05-2026 14:12:28 INFO  utils.LoggerUtility - Entering stairs: 2
+07-05-2026 14:12:28 INFO  utils.LoggerUtility - Entering apartment: 15
+07-05-2026 14:12:28 INFO  utils.LoggerUtility - Entering delivery details
+07-05-2026 14:12:28 INFO  utils.LoggerUtility - Entering postal code: 600001
+07-05-2026 14:12:28 INFO  utils.LoggerUtility - Entering city: Bacau
+07-05-2026 14:12:28 INFO  utils.LoggerUtility - Selecting county: Bacau
+07-05-2026 14:12:28 INFO  utils.LoggerUtility - Selecting country: Romania
+07-05-2026 14:12:28 INFO  utils.LoggerUtility - Submitting address
+07-05-2026 14:12:30 INFO  utils.LoggerUtility - Reading address confirmation message
+07-05-2026 14:12:30 INFO  utils.LoggerUtility - Selecting saved address
+07-05-2026 14:12:31 INFO  utils.LoggerUtility - Clicking 'Delete Address' button
+07-05-2026 14:12:32 INFO  utils.LoggerUtility - Confirming address deletion
+07-05-2026 14:12:34 INFO  utils.LoggerUtility - Closing browser
+07-05-2026 14:12:34 INFO  utils.LoggerUtility - Browser closed successfully
